@@ -1,0 +1,84 @@
+<html>
+<head>
+  <title>Firebase Login</title>
+  <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div id="login_div" class="main-div">
+    <h3> Give Away login </h3>
+    <input type="email" placeholder="Email..." id="email_field" />
+    <input type="password" placeholder="Password..." id="password_field" />
+
+    <button onclick="login()">Login to Account</button>
+    <br/>
+    <button onclick="loging()">Signin With Google</button>
+  </div>
+
+  <div id="register_div" class="main-div">
+    <h3> Give Away Register </h3>
+    <input type="email" placeholder="Email..." id="reg_email" />
+    <input type="password" placeholder="Password..." id=  "reg_pass" />
+
+    <button onclick="register()">Register</button>
+  </div>
+  <div id="forget_div" class="main-div">
+    <h3> Give Away Forgotten Password </h3>
+    <input type="email" placeholder="Email..." id="forget_email" />
+
+    <button onclick="forgetPass()">Reset Password</button>
+  </div>
+
+
+  <div id="user_div" class="loggedin-div">
+    <h3>Welcome User</h3>
+  </br>
+    <p id="user_para"> You're currently logged in.</p>
+    </br>
+    <button onclick="blog()">I Want to Contribute</button>
+  </br>
+  </br>
+    <button onclick="blog()">I Want to Post</button>
+  </br>
+    <button onclick="logout()">Logout</button>
+  </div>
+
+
+
+ 
+<script src="https://www.gstatic.com/firebasejs/5.5.5/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyBj218X5R6SIlLeaDbAmpEwKrCL5yeHvGk",
+    authDomain: "sihapp-c1725.firebaseapp.com",
+    databaseURL: "https://sihapp-c1725.firebaseio.com",
+    projectId: "sihapp-c1725",
+    storageBucket: "sihapp-c1725.appspot.com",
+    messagingSenderId: "164975242998"
+  };
+  firebase.initializeApp(config);
+</script>
+  <script src="index.js"></script>
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/5c7a862e3341d22d9ce6f77e/default';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="/__/firebase/6.6.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#reserved-urls -->
+
+<!-- Initialize Firebase -->
+<script src="/__/firebase/init.js"></script>
+</body>
+</html>

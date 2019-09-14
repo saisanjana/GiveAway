@@ -1,0 +1,2 @@
+# GiveAway
+Nowadays everyone has a smartphone connected to the internet. So, the best digital platform to solve our problem is a WEBSITE and an APPLICATION, where we can provide insights on waste management, let people know how can they protect our environment by doing simple tasks which can produce great benefits. So, in this platform we have these parts: Know about the plans and features in this digital platform. Start disposing  used items from your house or give away remaining food. Apply for becoming an agent. Publish articles on related topics on this website.
